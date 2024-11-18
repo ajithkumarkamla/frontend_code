@@ -1,3 +1,46 @@
-body{
-background-color:#123456}
-h1{color:white; text-align:center;text-decoration:6;}
+p{
+	color:blue;
+	font-size:16 px;
+}
+.html{
+	background-color:gray;
+	border:2px;
+	padding:10px
+}
+.course{
+	background-color:gray;
+	border:2px;
+	padding:10px
+}
+#css{
+	background-color:lightgray;
+	font-size:23px;
+}
+#footer{
+	background-color:darkgray;
+	font-size:18px;
+}
+*p{
+	background-color:red;
+}
+input[type="text"]{
+	border=1px solid blue;
+}
+input[type="button"]{
+	background-color:green;
+	color:white;
+}
+div p{
+	color:red;
+}
+ur>li{
+	background-color:blue;
+	list-style-type:square;
+}
+h1+p{
+	background-color:lightgray;
+	font-style:italic;
+}
+h1~p{
+	color:gray;
+}
